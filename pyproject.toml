@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tsa-lth"
+version = "1.0.1"
+description = "Package for time series analysis course at LTH"
+authors = [
+    { name="Filipp Lernbo", email="fi6418le-s@student.lu.se" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "filterpy>=1.4",
+    "matplotlib>=3.6,<4.0",
+    "nfoursid>=1.0",
+    "pandas>=1.5,<3.0",
+    "scipy>=1.11,<2.0",
+    "statsmodels>=0.14,<1.0"
+]
